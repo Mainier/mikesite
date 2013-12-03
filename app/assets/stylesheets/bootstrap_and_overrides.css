@@ -51,4 +51,7 @@ font-weight: 600;
 font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
 }
 
+.container {
+margin-right: auto;
+margin-left: auto;
 
