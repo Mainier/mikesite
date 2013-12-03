@@ -6,7 +6,7 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
-  .stolen-frosty {
+.stolen-frosty {
 	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
 	background-color: rgba(36,32,33,0.50);
     padding: 1%;
@@ -14,8 +14,7 @@
 
 }
 
-body
-	{background: url('bg.jpg');
+body {
   background: url('bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,3 +50,5 @@ display:block;
 font-weight: 600;
 font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
 }
+
+
