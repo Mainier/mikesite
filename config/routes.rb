@@ -1,10 +1,15 @@
 Mikesite::Application.routes.draw do
+  get "contact_form/new"
+  get "contact_form/create"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
 
+  resources :inquiries, :only => [:new, :create] do
+  get 'thank_you', :on => :collection
+end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
