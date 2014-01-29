@@ -9770,6 +9770,18 @@ ul.social-icons .icon:hover {
   /* causing problem on IE8, so we didn't display it */
 }
 
+.links {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('blur-bg.png');
+  background-repeat: no-repeat;
+  background-background-color: black;
+  color: white;
+
+  
+
 /*------------------------------------------------*/
 /*	Footer
 /*------------------------------------------------*/
